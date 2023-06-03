@@ -1,10 +1,30 @@
 .body {
     text-align: center;
     margin: auto;
-    width: 25%;
-    height: 30%;
-    font-size: 50;
-    color: black;
+    width: 30%;
     padding-top: 5%;
     
+}
+
+.aboutMe{
+    font-family: Helvetica, sans-serif, Arial;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+.hi{
+    text-align: justify;
+    padding-left: 1%;
+}
+
+.links{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
