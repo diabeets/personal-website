@@ -1,10 +1,10 @@
+import { Link } from 'react-router-dom';
 import './home.css'
 import MyPicture from '../../assets/Untitled.png'
 import Resume from '../../assets/JukaiDaiResume.pdf'
 import GithubIcon from '../../assets/github-mark.svg'
 import LinkedinIcon from '../../assets/linkedin.png'
 import EmailIcon from '../../assets/email.png'
-
 
 function Home(){
     return (
@@ -24,6 +24,13 @@ function Home(){
                     </p>
 
                 </div>
+
+                <div className='resume'>
+
+                    <ResumeButton />
+
+                </div>
+
                 <div className='links'>
                     <a href="https://github.com/diabeets" 
                     target='react\jsx-no-target-blank'> 
@@ -46,3 +53,14 @@ function Home(){
 }
 
 export default Home;
+
+
+function ResumeButton() {
+    return (
+      <div>
+        <Link to={Resume} target='react\jsx-no-target-blank'>
+          <button className='resumeButton'>resume</button>
+        </Link>
+      </div>
+    );
+  }
