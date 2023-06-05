@@ -1,15 +1,16 @@
 .body {
     text-align: center;
     margin: auto;
-    width: 30%;
+    width: 31%;
     padding-top: 5%;
-    
+    animation: fadeIn 2s;
 }
 
 .aboutMe{
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: Helvetica, sans-serif;
     color: rgb(59, 59, 59);
-    font-size: 18px;
+    font-size: 100%;
+    line-height: 150%;
 }
 
 .hi{
@@ -19,7 +20,7 @@
 
 .links{
     text-align: center;
-    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 .icon{
@@ -30,5 +31,18 @@
 }
 
 .resumeButton{
-    background-color: yellow;
+    background-color: rgb(87, 107, 196);
+    color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    
+    
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
