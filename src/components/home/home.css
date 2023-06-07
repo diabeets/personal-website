@@ -2,7 +2,7 @@
     text-align: center;
     margin: auto;
     width: 31%;
-    padding-top: 5%;
+    padding-top: 3%;
     animation: fadeIn 2s;
 }
 
@@ -39,6 +39,12 @@
     font-size: 14px;
     
     
+}
+
+.myPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 @keyframes fadeIn {

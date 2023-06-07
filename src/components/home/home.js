@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './home.css'
-import MyPicture from '../../assets/Untitled.png'
+import MyPicture from '../../assets/IMG_0518.jpg'
 import Resume from '../../assets/JukaiDaiResume.pdf'
 import GithubIcon from '../../assets/github-mark.svg'
 import LinkedinIcon from '../../assets/linkedin.png'
@@ -10,9 +10,9 @@ function Home(){
     return (
         <>
             <div className='body'>
-                <div className='myPic'>
-                    <img src={MyPicture} alt="developer" />
-                </div>
+
+                <img src={MyPicture} alt="developer" className='myPic' />
+
                 <h1>Jukai Dai</h1>
 
                 <div className='links'>
