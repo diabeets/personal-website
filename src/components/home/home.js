@@ -28,7 +28,7 @@ function Home(){
 
                     <a href="mailto:juk41@gmail.com"
                     target='react\jsx-no-target-blank' > 
-                    <img src={EmailIcon} alt="juk41@gmail.com" className='icon' />
+                    <img src={EmailIcon} alt="daijuk41@gmail.com" className='icon' />
                     </a>
                 </div>
 
